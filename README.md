@@ -38,3 +38,8 @@ challenge
 
         -- https://github.com/paragones/FyberCodeChallenge
 
+
+BONUS FEATURES
+
+        -- added Espresso Files to Automate Testing to check whether the Input Fields are correct
+        -- added Error Validation such as empty filed, number input and showing error response
