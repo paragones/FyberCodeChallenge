@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FyberCodeChallenge</string>
+    <string name="fyber_variable_form">Fyber Variable Form</string>
+    <string name="uid">UID :</string>
+    <string name="enter_uid">Enter UID</string>
+    <string name="api_key">API Key :</string>
+    <string name="enter_api_key">Enter API Key</string>
+    <string name="app_id">App ID :</string>
+    <string name="enter_app_id">Enter App ID</string>
+    <string name="pub_0">PUB 0 :</string>
+    <string name="enter_pub_0">Enter PUB 0</string>
+    <string name="submit">Submit</string>
+    <string name="uid_sample">spiderman</string>
+    <string name="api_key_sample">1c915e3b5d42d05136185030892fbb846c278927</string>
+    <string name="pub_0_sample">campaign2</string>
+    <string name="app_id_sample">2070</string>
+    <string name="response_result">Resonse Results</string>
+    <string name="response_success">Response Success</string>
+    <string name="response_failure">Response Fail</string>
+    <string name="no_offers">No offers</string>
+</resources>

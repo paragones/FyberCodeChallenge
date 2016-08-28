@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:stretchColumns="1"
+    tools:context=".Activities.FormActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fyber_variable_form"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            />
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uid"
+            />
+        
+        <EditText
+            android:id="@+id/uid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_uid"
+            android:singleLine="true"
+            android:nextFocusDown="@+id/api_key"
+            android:text="@string/uid_sample"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/api_key"
+            />
+        
+        <EditText
+            android:id="@+id/api_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_api_key"
+            android:singleLine="true"
+            android:nextFocusDown="@+id/app_id"
+            android:text="@string/api_key_sample"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_id"
+            />
+        
+        <EditText
+            android:id="@+id/app_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_app_id"
+            android:singleLine="true"
+            android:nextFocusDown="@+id/pub_0"
+            android:text="@string/app_id_sample"
+            android:inputType="number"
+            />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pub_0"
+            />
+        
+        <EditText
+            android:id="@+id/pub_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_pub_0"
+            android:singleLine="true"
+            android:nextFocusDown="@+id/submit_button"
+            android:text="@string/pub_0_sample"/>
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"/>
+    
+    
+
+</TableLayout>
